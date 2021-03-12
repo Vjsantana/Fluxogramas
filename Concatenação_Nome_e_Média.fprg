@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ValmirSantana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-11 10:32:00 "/>
+        <attribute name="created" value="VmFsbWlyU2FudGFuYTtERVNLVE9QLVNSVERBU047MjAyMS0wMy0xMTsiMTA6MTQ6MzYgIjszNjM1"/>
+        <attribute name="edited" value="VmFsbWlyU2FudGFuYTtERVNLVE9QLVNSVERBU047MjAyMS0wMy0xMTsiMTA6MzI6MDAgIjsxOzM3MzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <output expression="&quot;Digite o seu nome&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite o seu sobrenome&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;Agora, digite a sequ&#234;ncia das suas quatro notas no per&#237;odo&quot;" newline="True"/>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Integer" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;O seu nome &#233; &quot; &amp; nome &amp; &quot; ,seu sobrenome &#233; &quot; &amp; sobrenome &amp; &quot; e a sua m&#233;dia no per&#237;odo foi &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
